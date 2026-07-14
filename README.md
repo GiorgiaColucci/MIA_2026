@@ -9,7 +9,7 @@
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
-> Machine learning project that builds and evaluates a complete classification pipeline for student performance prediction. It compares several classification algorithms across different feature representations to assess the impact of data representation on predictive performance.
+> Machine learning project that builds and evaluates a complete classification pipeline for student performance prediction. It compares several classification algorithms across the original feature space and PCA- and MDA-based representations to assess the impact of data representation on predictive performance.
 
 Academic project for the *Machine Learning and Artificial Intelligence* course, reworked as a self-contained, reproducible case study. Every modelling choice is stated, justified, and tested against a baseline and against sampling noise, rather than reported as a single lucky accuracy number.
 
