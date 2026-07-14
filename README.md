@@ -9,7 +9,7 @@
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
-> End-to-end machine learning project that predicts a student's final-grade band from demographic, social and school-related features, and — more importantly — **quantifies how much the choice of feature representation and model actually matters** once you evaluate honestly.
+> Machine learning project that builds and evaluates a complete classification pipeline for student performance prediction. It compares several classification algorithms across different feature representations to assess the impact of data representation on predictive performance.
 
 Academic project for the *Machine Learning and Artificial Intelligence* course, reworked as a self-contained, reproducible case study. Every modelling choice is stated, justified, and tested against a baseline and against sampling noise, rather than reported as a single lucky accuracy number.
 
