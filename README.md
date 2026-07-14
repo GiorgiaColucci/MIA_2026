@@ -113,7 +113,7 @@ The near-flat PCA spectrum (no dominant components → 34 of 43 PCs needed for 9
 | k-NN | 50.23% | 2.09 | [47.3, 53.1] |
 | QDA | 46.38% | 4.28 | [40.4, 52.3] |
 
-The two leading models' confidence intervals **overlap** — their difference is **not statistically significant**. On the single 75/25 split the best single result is **k-NN = 59.51%** on the 2-D supervised MDA space, but with ~163 test samples ($\pm$7–8 pts of sampling error) that ranking is within the noise.
+The two leading models' confidence intervals **overlap** — their difference is **not statistically significant**. On the single 75/25 split the best single result is **k-NN = 59.51%** on the 2-D supervised MDA space, but with ~163 test samples ($\pm$ 7–8 pts of sampling error) that ranking is within the noise.
 
 **Effect of the feature representation** (best test accuracy per model, %):
 
