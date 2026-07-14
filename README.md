@@ -18,7 +18,7 @@ Academic project for the *Machine Learning and Artificial Intelligence* course, 
 ## Highlights
 
 - Built an **end-to-end ML pipeline** on 649 student records and 43 features after encoding, fully reproducible (`random_state=42`) and leakage-free.
-- **Identified and removed severe target leakage** (`G1`/`G2`, Pearson $r \approx 0.83$–$0.92$ with the final grade) that trivially inflates scores in many versions of this dataset.
+- **Identified and removed severe target leakage** (`G1`/`G2`, Pearson $r \approx 0.83–0.92$ with the final grade) that trivially inflates scores in many versions of this dataset.
 - **Evaluated 5 classifier families across 3 feature representations** (original 43-D, unsupervised PCA, supervised Fisher/MDA), applying an instructor-provided Fisher MDA class alongside the scikit-learn stack.
 - Performed **hyperparameter selection with Grid Search + stratified 5-fold cross-validation**, standardizing inside each fold to avoid leakage.
 - **Quantified statistical significance**: reported 95% confidence intervals and showed the leading models' differences fall within sampling noise.
